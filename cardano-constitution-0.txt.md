@@ -9,7 +9,7 @@ The Final Constitution must be ratified by Ada holders.
 Such ratification is expected to occur at the end of 2024 or the beginning
 of 2025.
 Therefore, the Final Constitution may differ, potentially significantly,
-from this Interim Constitution based on the desires and needs of the Cardano community.
+from this Interim Constitution based on the needs and values of the Cardano community.
 During 2024, a series of workshops will be held all around the world
 allowing the Cardano community to participate in the process of
 completing the Final Constitution.

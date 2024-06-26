@@ -3,13 +3,13 @@
 ### INTRODUCTORY NOTES
 
 This is an interim minimum viable constitution containing such provisions
-and guardrails as are necessary for CIP-1694 to come into effect.
+and guardrails as perceived necessary for CIP-1694 to come into effect.
 It is intended to be temporary.
 The Final Constitution must be ratified by Ada holders.
 Such ratification is expected to occur at the end of 2024 or the beginning
 of 2025.
 Therefore, the Final Constitution may differ, potentially significantly,
-from this Interim Constitution based on the desires of the Cardano community.
+from this Interim Constitution based on the desires and needs of the Cardano community.
 During 2024, a series of workshops will be held all around the world
 allowing the Cardano community to participate in the process of
 completing the Final Constitution.
@@ -18,21 +18,19 @@ before coming into effect.
 Such approval is expected to occur in the beginning of 2025.
 However, given that on-chain governance will come into existence during 2024,
 requiring a robust constitution and constitutional committee before the
-Final Constitution has been ratified, this Interim Constitution must contain
-such provisions and guardrails as are necessary to support and give effect to
-the needs and requirements of CIP-1694, assuring that the principles
-identified in this Interim Constitution are not compromised,
-until the date on which the Final Constitution is ratified.
+Final Constitution has been ratified, this Interim Constitution is designed to contain
+such provisions and guardrails as are considered necessary to support and give effect to
+the requirements of CIP-1694, ensuring that the principles of Cardano
+are not compromised, until the date on which the Final Constitution may be ratified.
 
-In approaching this Interim Constitution, it must be remembered that this is not
-a constitution for only a blockchain but rather, it is a constitution
-for a blockchain ecosystem – a much more ambitious endeavor.
+In approaching this Interim Constitution, it must be remembered that this is not a
+constitution for only a blockchain but rather, it is a constitution for a blockchain
+ecosystem – a much more ambitious endeavor. 
 Accordingly, how governance actions are approved, while extremely important,
 is not the sole focus of this Interim Constitution.
-Rather, this Interim Constitution provides the basis and fundamental framework
-through which all actors in the Cardano Blockchain ecosystem can come together
-to govern themselves and form radically new approaches to human interaction
-and collaboration.
+Rather, this Interim Constitution offers a basis through which all actors may come together
+to participate in a fundamental framework for responsible and stable stewardship of the Cardano
+Blockchain ecosystem.
 By necessity, this Interim Constitution recognizes the role of
 and empowers the Constitutional Committee, confirms the right of the
 Cardano community to participate in collective bodies for collaboration,
@@ -84,8 +82,7 @@ guiding principles for the operation and governance of the
 decentralized Cardano Blockchain ecosystem, providing a foundation that will
 adapt and evolve over time to meet the continuing needs
 of the Cardano community.
-All members of the Cardano community are expected to abide by this
-Interim Constitution, and are entitled to participate in its
+All members of the Cardano community are entitled to participate in Cardano 
 governance processes, including completing a Final Constitution to be ratified
 by Ada holders, and are encouraged to work collaboratively towards
 the betterment of the Cardano Blockchain ecosystem as a whole,

@@ -297,7 +297,7 @@ in the Cardano Blockchain ecosystem.
 #### Section 2
 
 Initially, the Constitutional Committee shall be composed of seven members.
-The initial Constitutional Committee members shall serve an inaugural term
+The Interim Constitutional Committee members shall serve an inaugural term
 of 73 epochs starting from the date of the Chang hard fork.
 Thereafter, through an on-chain governance action, Ada holders may adjust
 the number of members on the Constitutional Committee in accordance with the
@@ -615,11 +615,11 @@ and financial intermediaries (e.g. exchanges)
 
 ##### Triggers for Change
 
-- Significant changes in the fiat value of Ada resulting in
+1. Significant changes in the fiat value of Ada resulting in
 potential problems with security, performance or functionality
-- Changes in transaction volumes or types
-- Community requests or suggestions
-- Emergency situations that require changes to economic parameters
+2. Changes in transaction volumes or types
+3. Community requests or suggestions
+4. Emergency situations that require changes to economic parameters
 
 ##### Counter-indicators
 
@@ -1095,10 +1095,10 @@ denial of service attacks
 
 ##### Triggers for Change
 
-- Changes in the number of active SPOs
-- Changes to the Plutus language
-- Security threats
-- Community requests
+1. Changes in the number of active SPOs
+2. Changes to the Plutus language
+3. Security threats
+4. Community requests
 
 ##### Counter-indicators
 

@@ -93,7 +93,7 @@ contributing to its growth, sustainability, and success.
 
 ### ARTICLE I CARDANO BLOCKCHAIN ECOSYSTEM PRINCIPLES
 
-#### Section 1  
+#### Section 1
 
 Through adopting a constitution, the Cardano Blockchain ecosystem shall
 establish a robust governance framework, ensuring that decisions are made
@@ -101,7 +101,7 @@ in the best interest of the Cardano community.
 The Cardano community shall uphold principles of transparency, openness,
 and responsible governance, promoting a culture of trust and collaboration.
 
-#### Section 2  
+#### Section 2
 
 The Cardano Blockchain shall be governed on a vote-based decision-making model,
 fostering inclusivity, a diversity of views, innovation and adaptability.
@@ -128,14 +128,14 @@ All Cardano community members are accordingly beneficiaries of this
 Interim Constitution, entitled to its rights, privileges and protections and,
 as such, are expected to support and uphold this Interim Constitution.
 
-#### Section 2  
+#### Section 2
 
 Members of the Cardano community who hold ada are entitled to access
 and participate in the on-chain decision-making processes of the
 Cardano Blockchain ecosystem, including voting and taking part in
 on-chain governance regarding the Cardano Blockchain.
 
-#### Section 3  
+#### Section 3
 
 Members of the Cardano community have a responsibility to maintain the integrity
 of the Cardano Blockchain ecosystem by following this Interim Constitution,
@@ -152,13 +152,13 @@ or appropriate in support of the Cardano Blockchain ecosystem.
 
 ### ARTICLE III PARTICIPATORY GOVERNANCE
 
-#### Section 1  
+#### Section 1
 
 The Cardano Blockchain ecosystem shall be governed by a decentralized,
 on-chain governance model, utilizing, to the extent possible and beneficial,
 smart contracts and other blockchain-based tools to facilitate decision-making
 and ensure transparency.
-Onchain voting for governance actions shall follow the process outlined in
+On-chain voting for governance actions shall follow the process outlined in
 CIP-1694 and the Cardano Blockchain Guardrails.
 
 #### Section 2
@@ -297,7 +297,7 @@ in the Cardano Blockchain ecosystem.
 #### Section 2
 
 Initially, the Constitutional Committee shall be composed of seven members.
-The initial Constitutional Committee members shall serve an inaugural term
+The Interim Constitutional Committee members shall serve an inaugural term
 of 73 epochs starting from the date of the Chang hard fork.
 Thereafter, through an on-chain governance action, Ada holders may adjust
 the number of members on the Constitutional Committee in accordance with the
@@ -483,7 +483,7 @@ conservative; they may then be relaxed to account for actual timing behavior.
 #### Automated Checking ("Guardrails Script")
 
 A script hash is associated with the constitution hash when an
-**Update to the Constitution or proposal policy** governance action is enacted.
+**New Constitution or Guardrails Script** governance action is enacted.
 It acts as an additional safeguard to the ledger rules and types,
 filtering non-compliant governance actions.
 
@@ -615,11 +615,11 @@ and financial intermediaries (e.g. exchanges)
 
 ##### Triggers for Change
 
-- Significant changes in the fiat value of Ada resulting in
+1. Significant changes in the fiat value of Ada resulting in
 potential problems with security, performance or functionality
-- Changes in transaction volumes or types
-- Community requests or suggestions
-- Emergency situations that require changes to economic parameters
+2. Changes in transaction volumes or types
+3. Community requests or suggestions
+4. Emergency situations that require changes to economic parameters
 
 ##### Counter-indicators
 
@@ -697,7 +697,7 @@ UCPB-03 (y) *utxoCostPerByte* **must not** be zero
 
 UCPB-04 (y) *utxoCostPerByte* **must not** be negative
 
-UCPB-05 (x - "should") Changes need to account for
+UCPB-05 (x - "should") Changes **should** account for
 i) The acceptable cost of attack
 ii) The acceptable time for an attack (at least one epoch is assumed)
 iii) The acceptable memory configuration for full node users
@@ -934,7 +934,7 @@ potential problems with security, performance or functionality
 
 MBBS-04 (~ - no access to existing parameter values) *maxBlockBodySize*
 **must** be large enough to include at least one transaction
-(that is, *maxBlockBodySize* must be at least *maxTxSize*)
+(that is, *maxBlockBodySize* **must** be at least *maxTxSize*)
 
 MBBS-05 (x - "should") *maxBlockBodySize* **should** be changed by at most
 10,240 Bytes (10KB) per epoch (5 days), and preferably by 8,192 Bytes (8KB)
@@ -946,7 +946,7 @@ Any increase beyond this must be backed by performance analysis,
 simulation and benchmarking
 
 MBBS-07 (x - "unquantifiable") The impact of any change to *maxBlockBodySize*
-must be confirmed by detailed benchmarking/simulation
+**must** be confirmed by detailed benchmarking/simulation
 and not exceed the requirements of the block diffusion/propagation time budgets,
 as described below.
 Any increase to *maxBlockBodySize* must also consider future requirements
@@ -1095,10 +1095,10 @@ denial of service attacks
 
 ##### Triggers for Change
 
-- Changes in the number of active SPOs
-- Changes to the Plutus language
-- Security threats
-- Community requests
+1. Changes in the number of active SPOs
+2. Changes to the Plutus language
+3. Security threats
+4. Community requests
 
 ##### Counter-indicators
 
@@ -1241,7 +1241,7 @@ The *cost model* **must** be updated if new primitives are introduced or
 a new Plutus language version is added
 
 PCM-03 (~ - no access to *Plutus cost model* parameters)
-*Cost model* values **must not** be negative
+*Cost model* values **should not** be negative
 
 PCM-04 (~ - no access to *Plutus cost model* parameters) A *cost model*
 **must** be supplied for each Plutus language version that the protocol supports
@@ -1377,14 +1377,14 @@ VT-GEN-03 (y) Governance parameter thresholds **must** be in the range 75%-90%
 
 VT-HF-01 (y) **Hard fork** action thresholds **must** be in the range 51%-80%
 
-VT-CON-01 (y) **Update Constitution or proposal policy action** thresholds
+VT-CON-01 (y) **New Constitution or guardrails script action** thresholds
 **must** be in the range 65%-90%
 
 VT-CC-01 (y) **Update Constitutional Committee action** thresholds
-**must** be in the range 65%-90%
+**must** be in the range 51%-90%
 
-VT-NC-01 (y) **No confidence** action thresholds **must** be in the range
-51%-75%
+VT-NC-01 (y) **No confidence** action thresholds **must** be
+in the range 51%-75%
 
 ##### Governance Action Lifetime (govActionLifetime)
 
@@ -1442,7 +1442,7 @@ CMS-03 (y) *committeeMinSize* **must not** exceed 10
 
 #### 2.6 Monitoring and Reversion of Parameter Changes
 
-All network parameter changes must be monitored carefully for no less than
+All network parameter changes **must be** monitored carefully for no less than
 2 epochs (10 days)
 
 - Changes **must** be reverted as soon as possible if block propagation delays
@@ -1453,7 +1453,8 @@ All other parameter changes should be monitored
 - The reversion plan **should** be implemented if the overall effect
 on performance, security or functionality is unacceptable.
 
-A specific reversion/recovery plan must be produced for each parameter change.
+A specific reversion/recovery plan **must be** produced for
+each parameter change.
 This plan must include:
 
 - Which parameters need to change and in which ways in order to return to the
@@ -1555,15 +1556,15 @@ UPDATE-CC-01 (x)  **Update Constitutional Committee and/or threshold**
 **and/or term** governance actions **must not** be ratified until Ada holders
 have ratified through an on-chain governance action the Final Constitution.
 
-### 6 GUARDRAILS AND GUIDELINES ON UPDATE TO THE CONSTITUTION OR PROPOSAL POLICY ACTIONS
+### 6 GUARDRAILS AND GUIDELINES ON NEW CONSTITUTION OR GUARDRAILS SCRIPT ACTIONS
 
-Update to the constitution or proposal policy actions change the hash of the
-on-chain constitution and the associated governance proposal policy script.
+New constitution or guardrails script actions change the hash of the
+on-chain constitution and the associated guardrails script.
 
 ###### Guardrails
 
-UPDATE-CONSTITUTION-01 (x)  An **Update to the Constitution**
-**and/or proposal policy** governance action **must** be submitted to define
+NEW-CONSTITUTION-01 (x)  An **New Constitution**
+**or Guardrails Script** governance action **must** be submitted to define
 any required guardrails for new parameters that are introduced
 via a Hard Fork governance action
 
@@ -1616,7 +1617,7 @@ shortly after the Chang Hard Fork, will enable the four remaining
 CIP-1694 governance actions: **"treasury withdrawals"**,
 **"motion of no-confidence"**,
 **"update constitutional committee and/or threshold and/or terms"**, and
-**"update to the constitution or proposal policy"**.
+**"new constitution or guardrails script"**.
 At this point, DRep voting will be enabled and staking rewards can only be
 withdrawn if the Ada holder has delegated their vote
 (including to the pre-defined Abstain/No Confidence voting options).
@@ -1639,11 +1640,11 @@ community-approved Cardano Blockchain ecosystem budget(s).
 
 INTERIM-04 (x) Ada holders **must** have ratified the Final Constitution
 as specified in Appendix II before ratifying any other proposed
-**"update to the constitution"**, **"update constitutional committee**
+**"new constitution"**, **"update constitutional committee**
 **and/or threshold and/or terms"**, and
 **"motion of no-confidence"** governance actions.
 
-INTERIM-05 (x)  **"Update to the proposal policy"** actions
+INTERIM-05 (x)  **"New guardrails script"** actions
 that are consistent with the Interim Constitution may be ratified during
 the interim period, provided the Interim Constitution itself is not changed.
 
@@ -1707,9 +1708,9 @@ A series of global workshops for Ada holders to discuss and debate the
 Articles of a final constitution will commence during the second half of 2024.
 Workshops shall be geographically distributed to capture the breadth
 of sentiment in the Cardano community.
-Workshops shall elect up to a total of one hundred delegates comprising up to
-fifty voting delegates and up to fifty non-voting alternate delegates,
-who shall participate in a Constitutional Convention.
+Workshops shall elect up to a total of one hundred and forty delegates
+comprising up to seventy voting delegates and up to seventy non-voting
+alternate delegates, who shall participate in a Constitutional Convention.
 Each voting delegate participating in the Constitutional Convention
 shall have an equal vote.
 

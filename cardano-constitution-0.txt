@@ -93,7 +93,7 @@ contributing to its growth, sustainability, and success.
 
 ### ARTICLE I CARDANO BLOCKCHAIN ECOSYSTEM PRINCIPLES
 
-#### Section 1  
+#### Section 1
 
 Through adopting a constitution, the Cardano Blockchain ecosystem shall
 establish a robust governance framework, ensuring that decisions are made
@@ -101,7 +101,7 @@ in the best interest of the Cardano community.
 The Cardano community shall uphold principles of transparency, openness,
 and responsible governance, promoting a culture of trust and collaboration.
 
-#### Section 2  
+#### Section 2
 
 The Cardano Blockchain shall be governed on a vote-based decision-making model,
 fostering inclusivity, a diversity of views, innovation and adaptability.
@@ -128,14 +128,14 @@ All Cardano community members are accordingly beneficiaries of this
 Interim Constitution, entitled to its rights, privileges and protections and,
 as such, are expected to support and uphold this Interim Constitution.
 
-#### Section 2  
+#### Section 2
 
 Members of the Cardano community who hold ada are entitled to access
 and participate in the on-chain decision-making processes of the
 Cardano Blockchain ecosystem, including voting and taking part in
 on-chain governance regarding the Cardano Blockchain.
 
-#### Section 3  
+#### Section 3
 
 Members of the Cardano community have a responsibility to maintain the integrity
 of the Cardano Blockchain ecosystem by following this Interim Constitution,
@@ -152,7 +152,7 @@ or appropriate in support of the Cardano Blockchain ecosystem.
 
 ### ARTICLE III PARTICIPATORY GOVERNANCE
 
-#### Section 1  
+#### Section 1
 
 The Cardano Blockchain ecosystem shall be governed by a decentralized,
 on-chain governance model, utilizing, to the extent possible and beneficial,
@@ -1368,8 +1368,7 @@ The threshold parameters are listed below:
 
 ###### Guardrails
 
-VT-GEN-01 (y) All thresholds **must** be greater than 50% and
-less than or equal to 100%
+VT-GEN-01 (y) All thresholds **must** be in the range 50%-100%
 
 VT-GEN-02 (y) Economic, network and technical parameter thresholds
 **must** be in the range 51%-75%

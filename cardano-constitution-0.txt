@@ -297,7 +297,7 @@ in the Cardano Blockchain ecosystem.
 #### Section 2
 
 Initially, the Constitutional Committee shall be composed of seven members.
-The initial Constitutional Committee members shall serve an inaugural term
+The Interim Constitutional Committee members shall serve an inaugural term
 of 73 epochs starting from the date of the Chang hard fork.
 Thereafter, through an on-chain governance action, Ada holders may adjust
 the number of members on the Constitutional Committee in accordance with the
@@ -1241,7 +1241,7 @@ The *cost model* **must** be updated if new primitives are introduced or
 a new Plutus language version is added
 
 PCM-03 (~ - no access to *Plutus cost model* parameters)
-*Cost model* values **must not** be negative
+*Cost model* values **should not** be negative
 
 PCM-04 (~ - no access to *Plutus cost model* parameters) A *cost model*
 **must** be supplied for each Plutus language version that the protocol supports
@@ -1372,22 +1372,20 @@ VT-GEN-01 (y) All thresholds **must** be greater than 50% and
 less than or equal to 100%
 
 VT-GEN-02 (y) Economic, network and technical parameter thresholds
-**must** be greater than 50% and less than or equal to 75%
+**must** be in the range 51%-75%
 
 VT-GEN-03 (y) Governance parameter thresholds **must** be in the range 75%-90%
 
-VT-HF-01 (y) **Hard fork** action thresholds **must** be greater than 50%
-and less than or equal to 80%
+VT-HF-01 (y) **Hard fork** action thresholds **must** be in the range 51%-80%
 
 VT-CON-01 (y) **New Constitution or guardrails script action** thresholds
 **must** be in the range 65%-90%
 
-VT-CC-01 (y) **Update Constitutional Committee action** DRep thresholds
-**must** be in the range 65%-90% and SPO thresholds **must** be greater than
-50% and less than or equal to 90%.
+VT-CC-01 (y) **Update Constitutional Committee action** thresholds
+**must** be in the range 51%-90%
 
-VT-NC-01 (y) **No confidence** action thresholds **must** be greater than 50%
-and less than or equal to 75%
+VT-NC-01 (y) **No confidence** action thresholds **must** be
+in the range 51%-75%
 
 ##### Governance Action Lifetime (govActionLifetime)
 

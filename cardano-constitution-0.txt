@@ -158,7 +158,7 @@ The Cardano Blockchain ecosystem shall be governed by a decentralized,
 on-chain governance model, utilizing, to the extent possible and beneficial,
 smart contracts and other blockchain-based tools to facilitate decision-making
 and ensure transparency.
-Onchain voting for governance actions shall follow the process outlined in
+On-chain voting for governance actions shall follow the process outlined in
 CIP-1694 and the Cardano Blockchain Guardrails.
 
 #### Section 2
@@ -697,7 +697,7 @@ UCPB-03 (y) *utxoCostPerByte* **must not** be zero
 
 UCPB-04 (y) *utxoCostPerByte* **must not** be negative
 
-UCPB-05 (x - "should") Changes need to account for
+UCPB-05 (x - "should") Changes **should** account for
 i) The acceptable cost of attack
 ii) The acceptable time for an attack (at least one epoch is assumed)
 iii) The acceptable memory configuration for full node users
@@ -934,7 +934,7 @@ potential problems with security, performance or functionality
 
 MBBS-04 (~ - no access to existing parameter values) *maxBlockBodySize*
 **must** be large enough to include at least one transaction
-(that is, *maxBlockBodySize* must be at least *maxTxSize*)
+(that is, *maxBlockBodySize* **must** be at least *maxTxSize*)
 
 MBBS-05 (x - "should") *maxBlockBodySize* **should** be changed by at most
 10,240 Bytes (10KB) per epoch (5 days), and preferably by 8,192 Bytes (8KB)
@@ -946,7 +946,7 @@ Any increase beyond this must be backed by performance analysis,
 simulation and benchmarking
 
 MBBS-07 (x - "unquantifiable") The impact of any change to *maxBlockBodySize*
-must be confirmed by detailed benchmarking/simulation
+**must** be confirmed by detailed benchmarking/simulation
 and not exceed the requirements of the block diffusion/propagation time budgets,
 as described below.
 Any increase to *maxBlockBodySize* must also consider future requirements
@@ -1442,7 +1442,7 @@ CMS-03 (y) *committeeMinSize* **must not** exceed 10
 
 #### 2.6 Monitoring and Reversion of Parameter Changes
 
-All network parameter changes must be monitored carefully for no less than
+All network parameter changes **must be** monitored carefully for no less than
 2 epochs (10 days)
 
 - Changes **must** be reverted as soon as possible if block propagation delays
@@ -1453,7 +1453,8 @@ All other parameter changes should be monitored
 - The reversion plan **should** be implemented if the overall effect
 on performance, security or functionality is unacceptable.
 
-A specific reversion/recovery plan must be produced for each parameter change.
+A specific reversion/recovery plan **must be** produced for
+each parameter change.
 This plan must include:
 
 - Which parameters need to change and in which ways in order to return to the

@@ -1,14 +1,14 @@
 # Interim Cardano Constitution
 
-This repository holds a copy of the Interim Cardano Constitution.
-
- This repository contains a copy of the Interim Constitution document, which is anchored on-chain at [ipfs://bafkreifnwj6zpu3ixa4siz2lndqybyc5wnnt3jkwyutci4e2tmbnj3xrdm](ipfs://bafkreifnwj6zpu3ixa4siz2lndqybyc5wnnt3jkwyutci4e2tmbnj3xrdm).
+This repository holds a copy of the Interim Cardano Constitution and a copy of its associated [guardrails script](https://github.com/cardano-foundation/CIPs/blob/master/CIP-1694/README.md#guardrails-script).
 
 ### Contents
 
 For rendered document see [cardano-constitution-0.txt.md](./cardano-constitution-0.txt.md)
 
 For the raw document see [cardano-constitution-0.txt](./cardano-constitution-0.txt)
+
+For compiled guardrails script see [guardrails-script.plutus](./guardrails-script.plutus)
 
 ### Disclaimer
 

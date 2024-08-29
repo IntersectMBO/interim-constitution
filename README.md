@@ -1,5 +1,12 @@
 # Interim Cardano Constitution
 
+This repository holds a copy of the Interim Cardano Constitution.
+
+This repository contains a replica of the Interim Constitution document, which is anchored on-chain.
+The location that is anchored on-chain is [ipfs://bafkreifnwj6zpu3ixa4siz2lndqybyc5wnnt3jkwyutci4e2tmbnj3xrdm](ipfs://bafkreifnwj6zpu3ixa4siz2lndqybyc5wnnt3jkwyutci4e2tmbnj3xrdm).
+
+### Contents
+
 For rendered document see [cardano-constitution-0.txt.md](./cardano-constitution-0.txt.md)
 
 For the raw document see [cardano-constitution-0.txt](./cardano-constitution-0.txt)
